@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>SommerFerie</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 </head>
 <style>
 	
@@ -10,6 +12,8 @@
 		margin-top: 30px;
 		margin-bottom: 75px;
 		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-size: 50px
 	}
 	.row {
 		margin-top: 50px;
@@ -24,84 +28,64 @@
 		margin: 10 auto;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 400%;
 		text-align: center;
-		
 	}
 	p {
 		text-align: center;
 	}
-	.dateNum{
-		height: 20px;
+	#days{
+		bottom: -60px;
+		position: relative;
 	}
-.dateNum {
-}
+	
+	.timeLeft{
+		font-size: 60px;
+		font-family: 'Amatic SC', cursive;
+		background-color: #FFEB69;
+		border-radius: 40px;
+		height: 200px;
+		width: 400px
+	}
 </style>
 <body>
 	<h1 id="hello">Summer Countdown with Barbre and Josh </h1>
 	<table style="width: 100%">
 		<tr>
-			<th>
+			<th width="40%">
 			<img width="40%" src="Assets/josh.gif" alt="Italian Trulli">
 			</th>
 			<th>
-				<table>
-					<tr>
-						<td class="dateNum">
-							<h2 id="days">20</h2>
-						</td>
-						<td class="dateNum">
-							<h2 id="hours">20</h2>
-						</td>
-						<td class="dateNum">
-							<h2 id="minuttes">20</h2>
-						</td>
-						<td class="dateNum">
-							<h2 id="seconds">20</h2>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<p>Days</p>
-						</td>
-						<td>
-						<p>Hours</p>
-						</td>
-						<td>
-						<p>Minuttes</p>
-						</td>
-						<td>
-						<p>Seconds</p>
-						</td>
-					</tr>
-					<tr>
-						<th></th>
-					</tr>
-				</table>
+				<div class="timeLeft">
+					<div id="days"></div>
+				</div>
+				<div>
+				
+				</div>
 			</th>
-			<th>
+			<th width="40%">
 			<img width="40%" src="Assets/josh.gif" alt="Italian Trulli">
 			</th>
 		</tr>
 		<tr>
-			<th>
+			<th width="40%">
 			<img class="row" style="align-items: center" width="35%" src="Assets/creppy_smile.gif" alt="Italian Trulli">
 			</th>
 			<td>
 			
 			</td>
-			<th>
+			<th width="40%">
 			<img class="row" width="35%" src="Assets/creppy_smile.gif" alt="Italian Trulli">
 			</th>
 		</tr>
 		<tr>
-			<th>
+			<th width="40%">
 			<img name="hi" class="row" style="align-items: center" width="40%" src="Assets/josh.gif" alt="Italian Trulli">
 			</th>
 			<td>
 			
 			</td>
-			<th>
+			<th width="40%">
 			<img id="hi" class="row" width="40%" src="Assets/josh.gif" alt="Italian Trulli">
 			</th>
 		</tr>
