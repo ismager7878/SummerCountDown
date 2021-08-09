@@ -11,7 +11,6 @@ var hours = Math.floor(timeBetween / (1000*3600)-(days*24))
 var minuttes = Math.floor(timeBetween / (1000*60)-(days*24*60 + hours*60))
 var seconds = Math.floor(timeBetween / 1000 - (days*24*3600 + hours*3600 + minuttes*60))
 
-var fDays = ("0" + days).slice(-2); 
 var fHours = ("0" + hours).slice(-2); 
 var fMinuttes = ("0" + minuttes).slice(-2); 
 var fSeconds = ("0" + seconds).slice(-2); 
