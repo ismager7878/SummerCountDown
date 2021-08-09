@@ -20,5 +20,5 @@ console.log(fHours);
 console.log(fMinuttes);
 console.log(fSeconds);
 
-document.getElementById("days").innerHTML = fDays + " : " + fHours + " : " + fMinuttes + " : " + fSeconds;
+document.getElementById("days").innerHTML = days + " : " + fHours + " : " + fMinuttes + " : " + fSeconds;
 },1000)
